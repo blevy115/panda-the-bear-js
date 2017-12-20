@@ -49,4 +49,7 @@ Assignment 2
     var timeTravelParent = timeTravel.parentNode
     timeTravelParent.parentNode.removeChild(timeTravelParent)
 
-2.
+2.  var pikachu = body.querySelector('#right-image > img')
+    var pikachu2 = pikachu.cloneNode(true)
+    var portfolioContainer = body.querySelector('.portfolio-container')
+    portfolioContainer.appendChild(pikachu2)
