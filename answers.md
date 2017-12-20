@@ -26,3 +26,16 @@
    icons.forEach(function(icon){icon.querySelector('a').style.backgroundColor = 'red'})
 
 8. body.querySelector('#name').placeholder = "identify yourself"
+
+9. body.querySelector('#message').placeholder = "state your business"
+
+10. body.querySelector('#name').value = "your nemesis"
+
+11. body.querySelector('#email').value = "koalathebear@gmail.com"
+
+12. body.querySelector('#submit').value = "En garde!"
+
+13. body.querySelector('#submit').disabled = true
+
+14. var bio = body.querySelector('.bio-info')
+    bio.hidden = true
