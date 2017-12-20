@@ -1,3 +1,5 @@
+Assignment 1
+
 1. var profilePic = document.body.querySelector('img')
    profilePic.src = 'https://static.giantbomb.com/uploads/square_medium/15/155548/2353605-pandaman.png'
 1. var body = document.body
@@ -17,7 +19,7 @@
 4. body.style.backgroundColor = 'red'
 
 5. var highlights = body.querySelectorAll('.highlight')
-   for(i=0;i<highlights.length;i++){highlights[0].style.color = 'blue'}
+   for(i=0;i<highlights.length;i++){highlights[i].style.color = 'blue'}
 
 6. var h1 = body.querySelectorAll('h1')
    h1.forEach(function(h1){h1.style.fontFamily = 'monospace'})
@@ -39,3 +41,12 @@
 
 14. var bio = body.querySelector('.bio-info')
     bio.hidden = true
+
+
+Assignment 2
+
+1.  var timeTravel = body.querySelector('#time-travel')
+    var timeTravelParent = timeTravel.parentNode
+    timeTravelParent.parentNode.removeChild(timeTravelParent)
+
+2.
