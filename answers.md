@@ -53,3 +53,18 @@ Assignment 2
     var pikachu2 = pikachu.cloneNode(true)
     var portfolioContainer = body.querySelector('.portfolio-container')
     portfolioContainer.appendChild(pikachu2)
+
+3. for(i=0;i<10;i++){portfolioContainer.appendChild(pikachu.cloneNode(true))}
+<img src=​"images/​pikachu-drawing.jpg" alt=​"Pikachu" title=​"Pikachu">​
+
+4. var listItem = document.createElement('li');
+   var leftSpan = document.createElement('span');
+   var lastUpdated = document.createTextNode('Page last updated on');
+   leftSpan.appendChild(lastUpdated);
+   listItem.appendChild(leftSpan);
+   var rightSpan = document.createElement('span')
+   var dateUpdated = document.createTextNode(new Date);
+   rightSpan.appendChild(dateUpdated);
+   listItem.appendChild(rightSpan);
+   var bio = body.querySelector('.bio-info');
+   bio.appendChild(listItem);
